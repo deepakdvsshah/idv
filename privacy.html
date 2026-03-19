@@ -49,11 +49,8 @@
       margin-bottom: 10px;
     }
 
-    .footer-note {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #777;
-      text-align: center;
+    .meta p {
+      margin-bottom: 5px;
     }
 
     @media (max-width: 600px) {
@@ -64,110 +61,121 @@
   </style>
 </head>
 <body>
-  <div class="full-page">
 
-    <h1>Privacy Notice</h1>
+<div class="full-page">
 
-    <p><strong>Version 1.0</strong></p>
-    <p><strong>Effective Date:</strong> may 19th 2025</p>
-    <p><strong>Data Controller:</strong> [Customer´s name using IN ID Verify]</p>
-    <p><strong>Address:</strong> xxxx,xxxx</p>
-    <p><strong>Contact:</strong> xxxx@xxx.xx</p>
-    <p><strong>Data Protection Officer (DPO):</strong> dpo@xxx.xx</p>
+  <h1>Privacy Notice</h1>
 
-    <h2>1. Purpose of This Privacy Notice</h2>
-    <p>
-      This Privacy Notice informs you about the collection, use, disclosure, and protection of your personal data when using our mobile eID service for digital identity verification and credential issuance in accordance with ETSI TS 119 461 and the General Data Protection Regulation (GDPR).
-    </p>
-
-    <h2>2. Scope and Applicability</h2>
-    <p>
-      This service is used for remote identity proofing and electronic identification in scenarios that require substantial and high assurance levels, such as:
-    </p>
-    <ul>
-      <li>Qualified electronic signature issuance</li>
-      <li>Onboarding to financial services (KYC)</li>
-      <li>Access to eGovernment or eHealth portals</li>
-      <li>Linking to a European Digital Identity Wallet (EUDI Wallet)</li>
-    </ul>
-
-    <h2>3. Categories of Personal Data Collected</h2>
-    <p>
-      During the remote identity proofing process, we collect the following categories of personal data:
-    </p>
-    <p><strong>a. Identity Document Data (from NFC/MRZ chip):</strong></p>
-    <ul>
-      <li>Full name, date of birth, nationality</li>
-      <li>Document number, issuing authority, expiry date</li>
-      <li>Embedded portrait photo</li>
-      <li>Digital signature of issuing authority</li>
-    </ul>
-    <p><strong>b. Biometric Data:</strong></p>
-    <ul>
-      <li>Live facial image/video for liveness detection</li>
-      <li>Biometric template for identity match</li>
-    </ul>
-    <p><strong>c. Technical Metadata:</strong></p>
-    <ul>
-      <li>Device ID, IP address, operating system</li>
-      <li>Timestamp of identity verification</li>
-      <li>Log and audit trail data for compliance</li>
-    </ul>
-
-    <h2>4. Legal Basis for Processing</h2>
-    <ul>
-      <li>Art. 6(1)(a) GDPR – Your explicit consent, collected before identity verification begins</li>
-      <li>Art. 6(1)(c) GDPR – Compliance with legal obligations (e.g., anti-money laundering laws, eIDAS)</li>
-      <li>Art. 9(2)(a) GDPR – Explicit consent for processing biometric data</li>
-    </ul>
-
-    <h2>5. How Your Data Is Used</h2>
-    <ul>
-      <li>Verify the authenticity of your identity document</li>
-      <li>Match your live image with the document’s biometric data</li>
-      <li>Assess and document liveness (anti-spoofing)</li>
-      <li>Issue an identity proofing result or credential</li>
-      <li>Provide the result to a relying party (with your consent)</li>
-    </ul>
-
-    <h2>6. Data Recipients</h2>
-    <ul>
-      <li>Qualified Trust Service Providers (QTSPs) issuing qualified certificates (if applicable)</li>
-      <li>Relying Parties you authorize (e.g., your bank, public service portal)</li>
-      <li>Supervisory authorities, where required by law</li>
-    </ul>
-    <p>All processors and recipients are contractually bound to GDPR-compliant data protection obligations.</p>
-
-    <h2>7. Data Retention</h2>
-    <ul>
-      <li>Identity and biometric data: deleted within 30 days unless otherwise required</li>
-      <li>Audit logs and compliance data: retained for up to 7 years for regulatory compliance</li>
-    </ul>
-
-    <h2>8. Your Rights Under GDPR</h2>
-    <ul>
-      <li>Request access to your personal data (Art. 15 GDPR)</li>
-      <li>Rectify incorrect or outdated data (Art. 16 GDPR)</li>
-      <li>Request erasure of data, where legally permissible (Art. 17 GDPR)</li>
-      <li>Restrict or object to processing (Art. 18 & 21 GDPR)</li>
-      <li>Withdraw consent at any time (Art. 7 GDPR)</li>
-      <li>Lodge a complaint with your local Data Protection Authority</li>
-    </ul>
-    <p>To exercise your rights, please contact: privacy@xxx.xx</p>
-
-    <h2>9. Data Security Measures</h2>
-    <ul>
-      <li>End-to-end encryption of all data</li>
-      <li>Secure biometric processing on-device where possible</li>
-      <li>Separation of identity and transaction data</li>
-      <li>Regular audits and ETSI TS 119 461 compliance assessments</li>
-    </ul>
-
-    <h2>10. Changes to This Privacy Notice</h2>
-    <p>
-      This notice may be updated to reflect changes in legal or operational requirements. The current version is always available within the app and on our website.
-    </p>
-
+  <div class="meta">
+    <p>Version 1.0</p>
+    <p>Effective Date: March 23, 2025</p>
+    <p>Data Controller: IN Groupe Denmark A/S</p>
+    <p>Address: Teknikerbyen 5, 2830 Virum</p>
+    <p>Contact: dpo@ingroupe.com</p>
+    <p>Data Protection Officer (DPO): dpo@ingroupe.com</p>
   </div>
+
+  <h2>1. Purpose of This Privacy Notice</h2>
+  <p>
+    This Privacy Notice informs you about the collection, use, disclosure, and protection of your personal data when using our mobile eID service for digital identity verification and credential issuance in accordance with ETSI TS 119 461 and the General Data Protection Regulation (GDPR).
+  </p>
+
+  <h2>2. Scope and Applicability</h2>
+  <p>
+    This service is used for remote identity proofing and electronic identification in scenarios that require substantial and high assurance levels, such as:
+  </p>
+  <ul>
+    <li>Qualified electronic signature issuance</li>
+    <li>Onboarding to financial services (KYC)</li>
+    <li>Access to eGovernment or eHealth portals</li>
+    <li>Linking to a European Digital Identity Wallet (EUDI Wallet)</li>
+  </ul>
+
+  <h2>3. Categories of Personal Data Collected</h2>
+  <p>
+    During the remote identity proofing process, we collect the following categories of personal data:
+  </p>
+
+  <p><strong>a. Identity Document Data (from NFC/MRZ chip):</strong></p>
+  <ul>
+    <li>Full name, date of birth, nationality</li>
+    <li>Document number, issuing authority, expiry date</li>
+    <li>Embedded portrait photo</li>
+    <li>Digital signature of issuing authority</li>
+  </ul>
+
+  <p><strong>b. Biometric Data:</strong></p>
+  <ul>
+    <li>Live facial image/video for liveness detection</li>
+    <li>Biometric template for identity match</li>
+  </ul>
+
+  <p><strong>c. Technical Metadata:</strong></p>
+  <ul>
+    <li>Device ID, IP address, operating system</li>
+    <li>Timestamp of identity verification</li>
+    <li>Log and audit trail data for compliance</li>
+  </ul>
+
+  <h2>4. Legal Basis for Processing</h2>
+  <ul>
+    <li>Art. 6(1)(a) GDPR – Your explicit consent, collected before identity verification begins</li>
+    <li>Art. 6(1)(c) GDPR – Compliance with legal obligations (e.g., anti-money laundering laws, eIDAS)</li>
+    <li>Art. 9(2)(a) GDPR – Explicit consent for processing biometric data</li>
+  </ul>
+
+  <h2>5. How Your Data Is Used</h2>
+  <ul>
+    <li>Verify the authenticity of your identity document</li>
+    <li>Match your live image with the document’s biometric data</li>
+    <li>Assess and document liveness (anti-spoofing)</li>
+    <li>Issue an identity proofing result or credential</li>
+    <li>Provide the result to a relying party (with your consent)</li>
+  </ul>
+
+  <h2>6. Data Recipients</h2>
+  <ul>
+    <li>Qualified Trust Service Providers (QTSPs) issuing qualified certificates (if applicable)</li>
+    <li>Relying Parties you authorize (e.g., your bank, public service portal)</li>
+    <li>Supervisory authorities, where required by law</li>
+  </ul>
+  <p>
+    All processors and recipients are contractually bound to GDPR-compliant data protection obligations.
+  </p>
+
+  <h2>7. Data Retention</h2>
+  <ul>
+    <li>Identity and biometric data: deleted within 30 days unless otherwise required</li>
+    <li>Audit logs and compliance data: retained for up to 7 years for regulatory compliance</li>
+  </ul>
+
+  <h2>8. Your Rights Under GDPR</h2>
+  <ul>
+    <li>Request access to your personal data (Art. 15 GDPR)</li>
+    <li>Rectify incorrect or outdated data (Art. 16 GDPR)</li>
+    <li>Request erasure of data, where legally permissible (Art. 17 GDPR)</li>
+    <li>Restrict or object to processing (Art. 18 & 21 GDPR)</li>
+    <li>Withdraw consent at any time (Art. 7 GDPR)</li>
+    <li>Lodge a complaint with your local Data Protection Authority</li>
+  </ul>
+  <p>
+    To exercise your rights, please contact: privacy@ingroupe.com
+  </p>
+
+  <h2>9. Data Security Measures</h2>
+  <ul>
+    <li>End-to-end encryption of all data</li>
+    <li>Secure biometric processing on-device where possible</li>
+    <li>Separation of identity and transaction data</li>
+    <li>Regular audits and ETSI TS 119 461 compliance assessments</li>
+  </ul>
+
+  <h2>10. Changes to This Privacy Notice</h2>
+  <p>
+    This notice may be updated to reflect changes in legal or operational requirements. The current version is always available within the app and on our website.
+  </p>
+
+</div>
+
 </body>
 </html>
